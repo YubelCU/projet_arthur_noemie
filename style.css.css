@@ -1,0 +1,62 @@
+header, footer, article {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.block {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: white;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  background-color: white;
+  padding: 10px;
+}
+
+.header > div {
+  padding: 30px 0;
+  font-size: 10px;
+}
+
+.nom {
+  text-align: :center;
+  background-color: lightgray;
+}
+
+.connexion {
+  background-color:lightcoral;
+  text-align: right;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
+
+.img {
+  text-align: justify;
+  background-color: lightblue;
+}
+
+.avatar {
+  text-align: left;
+  padding-left: 20px;
+}
+
+article > div {
+  display : flex;
+  flex-direction: column;
+  margin : 5 px;
+}
+
+article {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+footer {
+  text-align: right;
+}
