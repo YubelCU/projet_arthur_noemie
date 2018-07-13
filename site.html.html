@@ -1,83 +1,210 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
+<!-- head contenant les infos générales-->
+<head>
+  <title>PKMN-Soluce</title>
+  <meta charset="utf-8">
+  <link type="text/css" href="template.css" rel="stylesheet">
 
-    <title>Scratch
-    </title>
-    <meta charset="utf-8">
-    <link type="text/css" href="style.css" rel="stylesheet">
+</head>
 
-  </head>
-
-  <body>
-    <header class="header">
-      <div class="img">
-        <img src="pika.png">
-      </div>
-      <div class="nom">
-        <h1>Nom du site</h1>
+<body>
+  <!-- header flex 3 blocs: image, nom, identification-->
+  <header>
+    <div class="img">
+      <img src="pika.png";>
+    </div>
+    <div class="nom">
+      <h1>Soluce Pokemon et forums</h1>
+    </div>
+    <!-- 2 blocs : image avatar et connexion en flex -->
+    <div class="identification">
+      <div class="avatar">
+        <img src="troll.png">
       </div>
       <div class="connexion">
-        <div class="avatar">
-          <img src="troll.png">
-        </div>
-        <div>
+        <a href="#">
           <h1>Connexion</h1>
-        </div>
+        </a>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <article>
+  <div id="SOluces">
 
-      <div class="block1">
-        <div>
-            <img src="red.png">
-        </div>
-        <div>
-          <h3> Pokemon 1ère génération</h3>
-        </div>
-      </div>
+    <!-- zone contenant la barre de recherche et le menu déroulant tri-->
+    <article class="recherche">
 
-      <div class="block2">
-        <div>
-            <img src="cristal.png">
-        </div>
-        <div>
-          <h3> Pokemon 2ème génération</h3>
-        </div>
+      <div>
+        <form method="post" action="">
+          <input type="search-btn" placeholder="Rechercher">
+        </form>
       </div>
 
-      <div class="block3">
-        <div>
-            <img src="emeraude.png">
-        </div>
-        <div>
-          <h3> Pokemon 3ème génération</h3>
-        </div>
+      <div id="menu">
+        <ul>
+          <li>Trier par
+            <ul>
+              <li><a href="#">Alphabétique</a></li>
+              <li>  <a href="#">Popularité</a></li>
+              <li><a href="#">Date</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
 
-      <div class="block4">
-        <div>
-            <img src="platine.png">
-        </div>
-        <div>
-          <h3> Pokemon 4ème génération</h3>
-        </div>
-      </div>
-
-      <div class="block5">
-        <div>
-            <img src="blanche.png">
-        </div>
-        <div>
-          <h3> Pokemon 5ème génération</h3>
-        </div>
-      </div>
     </article>
 
-    <footer>
-      <h3>créé par Arthur et Noémie </h3>
-    </footer>
+  <p id="titre_soluce"> Soluces des jeux Pokemon : cliquer sur la version correspondante : </p>
 
-  </body>
+    <article>
+      <!-- contenu de l'article avec les jaquettes et nom des jeux
+      avec des liens vers les forums-->
+      <div>
+        <div>
+            <img src="1G.png" href="#">
+        </div>
+        <div>
+          <a href="#">
+            <h3> Pokemon 1ère génération</h3>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div>
+            <img src="1G2.png" href="#">
+        </div>
+        <div>
+          <a href="#">
+            <h3> Pokemon 1ère génération</h3>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div>
+            <img src="2G.png" href="#">
+        </div>
+        <div>
+          <a href="#">
+            <h3> Pokemon 2ème génération</h3>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div>
+            <img src="2G2.png" href="#">
+        </div>
+        <div>
+          <a href="#">
+            <h3> Pokemon 2ème génération</h3>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div>
+            <img src="3G.png" href="#">
+        </div>
+        <div>
+          <a href="#">
+            <h3> Pokemon 3ème génération</h3>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div>
+            <img src="3G2.png" href="#">
+        </div>
+        <div>
+          <a href="#">
+            <h3> Pokemon 3ème génération</h3>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div>
+            <img src="4G.png" href="#">
+        </div>
+        <div>
+          <a href="#">
+            <h3> Pokemon 4ème génération</h3>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div>
+            <img src="5G.png" href="#">
+        </div>
+        <div>
+          <a href="#">
+            <h3> Pokemon 5ème génération</h3>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div>
+            <img src="5G2.png" href="#">
+        </div>
+        <div>
+          <a href="#">
+            <h3> Pokemon 5ème génération</h3>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div>
+            <img src="XY.png" href="#">
+        </div>
+        <div>
+          <a href="#">
+            <h3> Pokemon 6ème génération</h3>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div>
+            <img src="7G.png" href="#">
+        </div>
+        <div>
+          <a href="#">
+            <h3> Pokemon 7ème génération</h3>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div>
+            <img src="7G2.png" href="#">
+        </div>
+        <div>
+          <a href="#">
+            <h3> Pokemon 7ème génération</h3>
+          </a>
+        </div>
+      </div>
+
+    </article>
+
+  </div>
+  <!-- footer en bas -->
+  <footer>
+    <div>
+      <a href="#"> Conditions <br>d'utilisations </a>
+    </div>
+    <div>Copyrights: <br>Arthur et Noémie</div>
+    <div>
+      <a href="#">Retour en haut <br> de la page</a>
+    </div>
+  </footer>
+
+</body>
 </html>
