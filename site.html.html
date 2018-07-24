@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="fr" dir="ltr">
 <!-- head contenant les infos générales-->
 <head>
   <title>PKMN-Soluce</title>
@@ -12,7 +12,6 @@
   <!-- header flex 3 blocs: image, nom, identification-->
   <header>
     <div class="img">
-      <img src="pika.png";>
     </div>
     <div class="nom">
       <h1>Soluce Pokemon et forums</h1>
@@ -30,34 +29,12 @@
     </div>
   </header>
 
-  <div id="SOluces">
+  <div id="Soluces">
 
-    <!-- zone contenant la barre de recherche et le menu déroulant tri-->
-    <article class="recherche">
+    <p id="titre_soluce"> Soluces des jeux Pokemon :
+            cliquer sur la version correspondante : </p>
 
-      <div>
-        <form method="post" action="">
-          <input type="search-btn" placeholder="Rechercher">
-        </form>
-      </div>
-
-      <div id="menu">
-        <ul>
-          <li>Trier par
-            <ul>
-              <li><a href="#">Alphabétique</a></li>
-              <li>  <a href="#">Popularité</a></li>
-              <li><a href="#">Date</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-
-    </article>
-
-  <p id="titre_soluce"> Soluces des jeux Pokemon : cliquer sur la version correspondante : </p>
-
-    <article>
+    <article id="versions_pokemon">
       <!-- contenu de l'article avec les jaquettes et nom des jeux
       avec des liens vers les forums-->
       <div>
@@ -195,6 +172,77 @@
     </article>
 
   </div>
+
+  <!-- zone contenant la barre de recherche et le menu déroulant tri-->
+  <article class="recherche">
+
+    <div>
+      <form method="post" action="">
+        <input type="search-btn" placeholder="Rechercher">
+      </form>
+    </div>
+
+    <div id="menu">
+      <ul>
+        <li>Trier par
+          <ul>
+            <li><a href="#">Alphabétique</a></li>
+            <li>  <a href="#">Popularité</a></li>
+            <li><a href="#">Date</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+  </article>
+
+  <div id="zone_forum">
+
+    </article>
+
+    <p id="titre_soluce"> Forums pokemon : cliquer sur le titre pour l'ouvrir </p>
+
+    <article>
+
+    <article>
+      <table>
+        <tr id="table_titre">
+          <th>Titre du forum</th>
+          <th>Nombre messages</th>
+          <th>Dernière activité</th>
+        </tr>
+        <tr>
+          <th>
+            <a href="#">Pokemon Platine: Je galère au 5ème badge !</a>
+          </th>
+          <th>21 réponses</th>
+          <th>13/07/2018</th>
+        </tr>
+        <tr>
+          <th>
+            <a href="#">Pokemon Rouge: Astuces capture mewtwo</a>
+          </th>
+          <th>24 réponses</th>
+          <th>11/07/2018</th>
+        </tr>
+        <tr>
+          <th>
+            <a href="#">Pokemon Y: Discussion: Meilleur starter</a>
+          </th>
+          <th>63 réponses</th>
+          <th>29/06/2018</th>
+        </tr>
+        <tr>
+          <th>
+            <a href="#">Pokemon Ultra-Soleil: Ligue trop dure !!!</a>
+          </th>
+          <th>7 réponses</th>
+          <th>13/07/2018</th>
+        </tr>
+    </article>
+
+  </div>
+
   <!-- footer en bas -->
   <footer>
     <div>

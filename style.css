@@ -3,7 +3,7 @@
     margin : 2px;
 }
 /* traits en noirs entourant les zones */
-header, footer, article {
+header, footer, #versions_pokemon {
   border : 1px solid black;
 }
 
@@ -36,10 +36,16 @@ header {
   display:block;
   height:90px;
   width:120px ;
+  min-width: 100px;
   padding-top: 10px;
   border: 3px groove lightcoral;
   border-radius:1px;
   box-shadow: 1px 1px 1px red;
+  background-image:url("pika2.png");
+}
+
+.img:hover {
+  background-image:url("pika3.png");
 }
 
 .nom {
@@ -92,7 +98,7 @@ article {
   margin-right: 50px;
 }
 
-article>div {
+#version-pokemon>div {
   margin:5px;
   text-align: center;
 }
@@ -168,5 +174,37 @@ float:none;
   font-family:"Arial";
   font-style: italic;
   color: #ee5220;
+}
 
+.forum {
+  display : flex;
+  justify-content: flex-start;
+}
+
+.forum > div {
+  margin : 5px;
+  padding : 0 10%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+p {
+  margin-left: 50px;
+}
+
+table {
+  width:100%;
+  font-size:13px;
+}
+
+#table_titre{
+  font-size: 20px;
+  font-weight: bold;
+  color : red;
+  border : 1px solid black;
+}
+
+
+tr {
+  border: 1px solid black;
 }
